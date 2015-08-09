@@ -1,0 +1,11 @@
+{
+  "name": "botyard-web",
+  "version": "0.0.1",
+  "authors": [
+    "Outsider <outsideris@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "material-design-lite": "~1.0.2"
+  }
+}

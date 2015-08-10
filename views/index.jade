@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  form(action='/signin', method="POST")#login
+    .mdl-textfield.mdl-js-textfield.mdl-textfield--floating-label
+      input.mdl-textfield__input(type="text", name="username")#usename
+      label.mdl-textfield__label(for="username") Enter your username
+    .mdl-textfield.mdl-js-textfield.mdl-textfield--floating-label
+      input.mdl-textfield__input(type="password", name="password")#password
+      label.mdl-textfield__label(for="password") Enter your password
+    button.mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-button--accent Sign-In

@@ -1,8 +1,10 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+#login {
+    width: 400px;
+    margin: 40vh auto 0;
+    text-align: center;
 }
 
-a {
-  color: #00B7FF;
+#login .mdl-textfield {
+    display: block;
+    margin: 0 auto;
 }
